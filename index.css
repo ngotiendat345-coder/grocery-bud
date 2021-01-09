@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+}
+body{
+    background: #f1f5f8;
+    color:#102a42;
+    margin:0;
+    padding:0;
+}
+.groceryProject{
+   border-radius: 10px;
+    width:90%;
+    margin:auto;
+    margin-top:8rem;
+    max-width:35rem;
+    background: #fff;
+    padding:2rem;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+.alert{
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-bottom:1rem;
+    height:1.25rem;
+    color:#617d98;
+    text-transform: capitalize;
+    align-items: center;
+}
+.alert-danger{
+    color: #721c24;
+    background: #f8d7da;
+}
+.alert-success{
+    color: #155724;
+    background: #d4edda;
+}
+
+.groceryProject h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom:1.5rem;
+    letter-spacing: 4px;
+}
+.grocery-form{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grocery-form input{
+    flex:1 1 auto;
+    color: #617d98;
+    background: #f1f5f8;
+    font-size: 1rem;
+    border:transparent;
+    padding:0.25rem 1rem;
+    border-radius: 5px;
+}
+.submit-btn{
+    background: #a5d5f8;
+    font-size: 1rem;
+    border:transparent;
+    padding:0.25rem 1rem;
+    letter-spacing: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.submit-btn:hover{
+    background:#49a6e9;
+    color:white;
+    transition:all 0.3s linear;
+}
+.grocery-content{
+    margin-top:2rem;
+    visibility: hidden;
+  
+}
+.show-content{
+    visibility:visible;
+}
+.grocery-item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding:0.25rem 1rem;
+    margin-bottom:0.5rem;
+}
+.grocery-item p{
+    margin:0;
+}
+.grocery-item:hover{
+    color:#617d98;
+    background:#f1f5f8;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+.edit-btn,
+.delete-btn,
+.clear-button{
+    border:transparent;
+    background: transparent;
+}
+.edit-btn{
+    color:#6be675;
+}
+.edit-btn:hover{
+    color:#25bb32;
+    transition: all 0.3s linear;
+}
+.clear-button,
+.delete-btn{
+    color:#e66b6b;
+}
+.clear-button:hover,
+.delete-btn:hover{
+    color:#bb2525;
+    transition: all 0.3s linear;
+}
+.clear-button{
+    font-size:0.9rem;
+    width:10rem;
+    height:1.5rem;
+    display:grid;
+    margin:0 auto;
+    margin-top:1.25rem;
+    letter-spacing: 3px;
+}
+.fa-trash,
+.fa-edit{
+    pointer-events: none;
+}
